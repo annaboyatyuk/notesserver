@@ -1,0 +1,49 @@
+{
+  "name": "notesserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest --verbose --coverage --forceExit",
+    "test-watch": "jest --watchAll",
+    "lint": "eslint"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaboyatyuk/notesserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaboyatyuk/notesserver/issues"
+  },
+  "homepage": "https://github.com/annaboyatyuk/notesserver#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-import": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.15.1",
+    "express": "^4.16.4",
+    "html-loader": "^0.5.5",
+    "jest": "^24.1.0",
+    "mockgoose": "^8.0.1",
+    "mongoose": "^5.4.17",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.11.0",
+    "require-dir": "^1.2.0",
+    "superagent": "^4.1.0",
+    "supertest": "^3.4.2"
+  }
+}
